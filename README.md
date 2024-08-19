@@ -20,7 +20,7 @@
 - Action: I trained and tested several models, including Logistic Regression, XGBoost, RandomForestClassifier, and DecisionTreeClassifier. The process included:
   - Initial Model Training: Established a baseline for performance.
   - Feature Scaling: Applied standard scaling to improve model performance.
-  - Addressing Class Imbalance: Used techniques like SMOTE to handle class imbalance, focusing on improving recall for the positive class (churn).
+  - Addressing Class Imbalance: Used techniques like class weight to handle class imbalance, focusing on improving recall for the positive class (churn).
   - Hyperparameter Tuning: Fine-tuned models to achieve better balance between precision and recall.
 - Result: XGBoost emerged as the top-performing model with an F1 score of 0.65 for the positive class and an overall accuracy of 78%.
 ### 6. Model Evaluation
