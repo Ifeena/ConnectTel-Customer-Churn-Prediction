@@ -4,7 +4,7 @@
 - The ConnectTel Customer Churn Prediction project aimed to develop a predictive model capable of accurately identifying customers at risk of churning. This project involved multiple stages, including Data Cleaning and Preparation, Exploratory Data Analysis (EDA), Feature Engineering, Model Selection, Training and Validation, and Model Evaluation. The goal was to optimize the model's performance to help ConnectTel enhance its customer retention strategies by reducing false negatives and improving the identification of customers likely to churn.
 
 # Steps Taken:
-1. Problem Definition
+### 1. Problem Definition
 - Situation: ConnectTel needed a solution to predict customer churn effectively to maintain its customer base.
 - Task: Develop a machine learning model that accurately identifies customers likely to churn, focusing on reducing false negatives.
 2. Data Cleaning and Preparation
