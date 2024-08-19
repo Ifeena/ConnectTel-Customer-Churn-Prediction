@@ -1,0 +1,68 @@
+Logistic Regression - After Scaling
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8553    0.9015    0.8778      1036
+           1     0.6782    0.5764    0.6232       373
+
+    accuracy                         0.8155      1409
+   macro avg     0.7668    0.7390    0.7505      1409
+weighted avg     0.8084    0.8155    0.8104      1409
+
+Confusion Matrix:
+[[934 102]
+ [158 215]]
+Cross-Validation F1 Scores: [0.625      0.60560748 0.55514706 0.57042254 0.57627119]
+Mean CV Score - After Scaling: 58.65%
+--------------------------------------------------
+Random Forest - After Scaling
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8298    0.9083    0.8673      1036
+           1     0.6545    0.4826    0.5556       373
+
+    accuracy                         0.7956      1409
+   macro avg     0.7422    0.6954    0.7114      1409
+weighted avg     0.7834    0.7956    0.7848      1409
+
+Confusion Matrix:
+[[941  95]
+ [193 180]]
+Cross-Validation F1 Scores: [0.60357143 0.55621302 0.54166667 0.5530303  0.51394422]
+Mean CV Score - After Scaling: 55.37%
+--------------------------------------------------
+Decision Tree - After Scaling
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8090    0.8012    0.8050      1036
+           1     0.4621    0.4745    0.4683       373
+
+    accuracy                         0.7147      1409
+   macro avg     0.6356    0.6378    0.6366      1409
+weighted avg     0.7172    0.7147    0.7159      1409
+
+Confusion Matrix:
+[[830 206]
+ [196 177]]
+Cross-Validation F1 Scores: [0.534375   0.47019868 0.48796148 0.5221519  0.48092869]
+Mean CV Score - After Scaling: 49.91%
+--------------------------------------------------
+XGBoost Classifier - After Scaling
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8376    0.8861    0.8612      1036
+           1     0.6230    0.5228    0.5685       373
+
+    accuracy                         0.7899      1409
+   macro avg     0.7303    0.7044    0.7148      1409
+weighted avg     0.7808    0.7899    0.7837      1409
+
+Confusion Matrix:
+[[918 118]
+ [178 195]]
+Cross-Validation F1 Scores: [0.61406518 0.53256705 0.52536232 0.55714286 0.51492537]
+Mean CV Score - After Scaling: 54.88%
+--------------------------------------------------

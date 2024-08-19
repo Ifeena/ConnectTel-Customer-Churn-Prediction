@@ -1,0 +1,68 @@
+Logistic Regression - Initial_Model_Training
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8592    0.8832    0.8710      1036
+           1     0.6483    0.5979    0.6220       373
+
+    accuracy                         0.8077      1409
+   macro avg     0.7537    0.7405    0.7465      1409
+weighted avg     0.8033    0.8077    0.8051      1409
+
+Confusion Matrix:
+[[915 121]
+ [150 223]]
+Cross-Validation F1 Scores: [0.61780105 0.55909944 0.54644809 0.57044674 0.58223062]
+Mean CV Score - Initial Model Training:  57.52%
+--------------------------------------------------
+Random Forest - Initial_Model_Training
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8292    0.9093    0.8674      1036
+           1     0.6557    0.4799    0.5542       373
+
+    accuracy                         0.7956      1409
+   macro avg     0.7425    0.6946    0.7108      1409
+weighted avg     0.7833    0.7956    0.7845      1409
+
+Confusion Matrix:
+[[942  94]
+ [194 179]]
+Cross-Validation F1 Scores: [0.60854093 0.56015779 0.54442344 0.55743879 0.51689861]
+Mean CV Score - Initial Model Training:  55.75%
+--------------------------------------------------
+Decision Tree - Initial_Model_Training
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8098    0.8012    0.8054      1036
+           1     0.4635    0.4772    0.4703       373
+
+    accuracy                         0.7154      1409
+   macro avg     0.6366    0.6392    0.6379      1409
+weighted avg     0.7181    0.7154    0.7167      1409
+
+Confusion Matrix:
+[[830 206]
+ [195 178]]
+Cross-Validation F1 Scores: [0.53271028 0.47097844 0.48874598 0.5229794  0.47840532]
+Mean CV Score - Initial Model Training:  49.88%
+--------------------------------------------------
+XGBoost Classifier - Initial_Model_Training
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8376    0.8861    0.8612      1036
+           1     0.6230    0.5228    0.5685       373
+
+    accuracy                         0.7899      1409
+   macro avg     0.7303    0.7044    0.7148      1409
+weighted avg     0.7808    0.7899    0.7837      1409
+
+Confusion Matrix:
+[[918 118]
+ [178 195]]
+Cross-Validation F1 Scores: [0.61406518 0.53256705 0.52536232 0.55714286 0.51492537]
+Mean CV Score - Initial Model Training:  54.88%
+--------------------------------------------------

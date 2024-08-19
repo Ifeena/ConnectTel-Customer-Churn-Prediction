@@ -1,0 +1,51 @@
+LogisticRegression - After Hyperparameter Tuning
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.72      0.81      1036
+           1       0.52      0.83      0.64       373
+
+    accuracy                           0.75      1409
+   macro avg       0.72      0.78      0.73      1409
+weighted avg       0.82      0.75      0.77      1409
+
+Confusion Matrix:
+[[751 285]
+ [ 63 310]]
+Cross-Validation F1 Scores: [0.64303797 0.61419355 0.62041885 0.61245235 0.61684783]
+Mean CV Score - After Hyperparameter Tuning: 62.14%
+--------------------------------------------------
+RandomForestClassifier - After Hyperparameter Tuning
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.81      0.85      1036
+           1       0.58      0.72      0.64       373
+
+    accuracy                           0.78      1409
+   macro avg       0.73      0.76      0.74      1409
+weighted avg       0.81      0.78      0.79      1409
+
+Confusion Matrix:
+[[838 198]
+ [105 268]]
+Cross-Validation F1 Scores: [0.64507042 0.63157895 0.62672811 0.61812779 0.59935897]
+Mean CV Score - After Hyperparameter Tuning: 62.42%
+--------------------------------------------------
+XGBClassifier - After Hyperparameter Tuning
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.79      0.84      1036
+           1       0.57      0.76      0.65       373
+
+    accuracy                           0.78      1409
+   macro avg       0.74      0.78      0.75      1409
+weighted avg       0.81      0.78      0.79      1409
+
+Confusion Matrix:
+[[820 216]
+ [ 89 284]]
+Cross-Validation F1 Scores: [0.65283541 0.62349398 0.62017804 0.62116992 0.61883408]
+Mean CV Score - After Hyperparameter Tuning: 62.73%
+--------------------------------------------------

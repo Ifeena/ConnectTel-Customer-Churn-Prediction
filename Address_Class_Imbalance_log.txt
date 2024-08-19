@@ -1,0 +1,51 @@
+Logistic Regression - Address Class Imbalance
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9252    0.7288    0.8153      1036
+           1     0.5261    0.8365    0.6460       373
+
+    accuracy                         0.7573      1409
+   macro avg     0.7257    0.7826    0.7306      1409
+weighted avg     0.8196    0.7573    0.7705      1409
+
+Confusion Matrix:
+[[755 281]
+ [ 61 312]]
+Cross-Validation F1 Scores: [0.64402516 0.61340206 0.62303665 0.61381074 0.61517615]
+Mean CV Score - Address Class Imbalance: 62.19%
+--------------------------------------------------
+Random Forest - Address Class Imbalance
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8270    0.9093    0.8662      1036
+           1     0.6519    0.4718    0.5474       373
+
+    accuracy                         0.7935      1409
+   macro avg     0.7394    0.6906    0.7068      1409
+weighted avg     0.7807    0.7935    0.7818      1409
+
+Confusion Matrix:
+[[942  94]
+ [197 176]]
+Cross-Validation F1 Scores: [0.60218978 0.54582485 0.52793834 0.53742802 0.51115619]
+Mean CV Score - Address Class Imbalance: 54.49%
+--------------------------------------------------
+XGBoost Classifier - Address Class Imbalance
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.8694    0.8031    0.8349      1036
+           1     0.5487    0.6649    0.6012       373
+
+    accuracy                         0.7665      1409
+   macro avg     0.7090    0.7340    0.7181      1409
+weighted avg     0.7845    0.7665    0.7731      1409
+
+Confusion Matrix:
+[[832 204]
+ [125 248]]
+Cross-Validation F1 Scores: [0.61111111 0.57416268 0.57589984 0.5813253  0.5696    ]
+Mean CV Score - Address Class Imbalance: 58.24%
+--------------------------------------------------
